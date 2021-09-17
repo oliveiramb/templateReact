@@ -1,27 +1,21 @@
 import './App.css';
-import Foto from './Foto'
-
-const texto = "src/indexxx/App.js"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>{texto}</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
 }
+
+// Criar um componente Login, contendo os campos de login e senha e um botao de logar.
+
+// Criar um component Cadastro de usuario, 
+// contendo os campos de login, senha, endereco e um botao de cadastrar
+
+// Os 2 componentes devem trabalhar com o useState dentro de cada um. 
+// O useState nao e reutilizavel por componente, para isso usamos um outro hook.
 
 export default App;
